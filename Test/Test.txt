@@ -1,0 +1,2 @@
+        <PlanetSizeType Size="Small" Type="Arid"/>
+        <PlanetSizeType Size="Small" Type="Snow"/>

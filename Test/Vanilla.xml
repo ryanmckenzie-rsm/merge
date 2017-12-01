@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Generator.Definitions.PlanetPopulationCapacityGroupDefinition.xsd">
+
+    <PopulationCapacityGroup Model="Standard" Rank="2">
+        <PlanetSizeType Size="Tiny" Type="Snow"/>
+        <PlanetSizeType Size="Tiny" Type="Desert"/>
+        <PlanetSizeType Size="Tiny" Type="Arctic"/>
+        <PlanetSizeType Size="Tiny" Type="Arid"/>
+        <PlanetSizeType Size="Small" Type="Ash"/>
+        <PlanetSizeType Size="Small" Type="Ice"/>
+        <PlanetSizeType Size="Small" Type="Arid"/>
+        <PlanetSizeType Size="Small" Type="Snow"/>
+        <PlanetSizeType Size="Small" Type="Desert"/>
+        <PlanetSizeType Size="Small" Type="Arctic"/>
+        <PlanetSizeType Size="Medium" Type="Lava"/>
+        <PlanetSizeType Size="Medium" Type="Swamp"/>
+        <PlanetSizeType Size="Medium" Type="Ash"/>
+        <PlanetSizeType Size="Medium" Type="Ice"/>
+        <PlanetSizeType Size="Large" Type="Lava"/>
+        <PlanetSizeType Size="Large" Type="Swamp"/>
+    </PopulationCapacityGroup>
+
+</Datatable>

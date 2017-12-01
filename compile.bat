@@ -1,0 +1,1 @@
+g++ -std=c++11 -pedantic main.cpp Source\PlanetPopulationCapacityGroupDefinition.cpp -o main

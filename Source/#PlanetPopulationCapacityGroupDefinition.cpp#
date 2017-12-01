@@ -1,0 +1,53 @@
+#include "PlanetPopulationCapacityGroupDefinition.h"
+#include <string>
+#include <sstream>
+
+
+PlanetPopulationCapacityGroupDefinition::PlanetPopulationCapacityGroupDefinition() :
+	_pUniqueEntity(0),
+	_pPopulationCapacityGroupRanks(0)
+{
+	_uniqueEntitySize = 1;
+	_pUniqueEntity = new std::string[_uniqueEntitySize];
+	_pUniqueEntity[0] = "PopulationCapacityGroup";
+	
+	_populationCapacityGroupRanksSize = 5;
+	_pPopulationCapacityGroupRanks = new int[_populationCapacityGroupRanksSize];
+	_pPopulationCapacityGroupRanks[0] = 1;
+	_pPopulationCapacityGroupRanks[1] = 2;
+	_pPopulationCapacityGroupRanks[2] = 3;
+	_pPopulationCapacityGroupRanks[3] = 4;
+	_pPopulationCapacityGroupRanks[4] = 5;
+}
+
+
+PlanetPopulationCapacityGroupDefinition::~PlanetPopulationCapacityGroupDefinition()
+{
+	if (_pUniqueEntity) {
+		delete [] _pUniqueEntity;
+	}
+	
+	if (_pPopulationCapacityGroupRanks) {
+		delete [] _pPopulationCapacityGroupRanks;
+	}
+}
+
+
+bool checkIfUnique(std::string payload)
+[
+	std::stringstream delimitedPayload(payload);
+	bool isUnique;
+	std::string dummy;
+	while (delimitedPayload >> dummy) {
+		isUnique = false;
+		for (int i = 0; i < _uniqueEntitySize; ++i) {
+			if (
+}
+
+
+void scrubPayload(std::string& payload)
+{
+	while ((pos = dummy.find_first_of('/')) > -1) {
+		dummy.replace(pos, 1, " ");
+	}
+}
